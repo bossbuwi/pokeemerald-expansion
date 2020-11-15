@@ -650,33 +650,33 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2             (FLAG_HIDDEN_ITEMS_START + 0x5D)
 #define FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3             (FLAG_HIDDEN_ITEMS_START + 0x5E)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
-#define FLAG_UNUSED_0x273  0x273 // Unused Flag
-#define FLAG_UNUSED_0x274  0x274 // Unused Flag
-#define FLAG_UNUSED_0x275  0x275 // Unused Flag
-#define FLAG_UNUSED_0x276  0x276 // Unused Flag
-#define FLAG_UNUSED_0x277  0x277 // Unused Flag
-#define FLAG_UNUSED_0x278  0x278 // Unused Flag
-#define FLAG_UNUSED_0x279  0x279 // Unused Flag
-#define FLAG_UNUSED_0x27A  0x27A // Unused Flag
-#define FLAG_UNUSED_0x27B  0x27B // Unused Flag
-#define FLAG_UNUSED_0x27C  0x27C // Unused Flag
-#define FLAG_UNUSED_0x27D  0x27D // Unused Flag
-#define FLAG_UNUSED_0x27E  0x27E // Unused Flag
+#define FLAG_UNUSED_0x264  0x264 // Unused Flag - Mesprit encounter
+#define FLAG_UNUSED_0x265  0x265 // Unused Flag - Azelf encounter
+#define FLAG_UNUSED_0x266  0x266 // Unused Flag - Uxie encounter
+#define FLAG_UNUSED_0x267  0x267 // Unused Flag - Entei encounter
+#define FLAG_UNUSED_0x268  0x268 // Unused Flag - Raikou encounter
+#define FLAG_UNUSED_0x269  0x269 // Unused Flag - Suicune encounter
+#define FLAG_UNUSED_0x26A  0x26A // Unused Flag - Palkia encounter
+#define FLAG_UNUSED_0x26B  0x26B // Unused Flag - Dialga encounter
+#define FLAG_UNUSED_0x26C  0x26C // Unused Flag - Giratina encounter
+#define FLAG_UNUSED_0x26D  0x26D // Unused Flag - Thundurus encounter
+#define FLAG_UNUSED_0x26E  0x26E // Unused Flag - Tornadus encounter
+#define FLAG_UNUSED_0x26F  0x26F // Unused Flag - Landorus encounter
+#define FLAG_UNUSED_0x270  0x270 // Unused Flag - Zapdos encounter
+#define FLAG_UNUSED_0x271  0x271 // Unused Flag - Moltres encounter
+#define FLAG_UNUSED_0x272  0x272 // Unused Flag - Articuno encounter
+#define FLAG_UNUSED_0x273  0x273 // Unused Flag - Mewtwo encounter
+#define FLAG_UNUSED_0x274  0x274 // Unused Flag - Heatran encounter
+#define FLAG_UNUSED_0x275  0x275 // Unused Flag - Regigigas encounter
+#define FLAG_UNUSED_0x276  0x276 // Unused Flag - Cobalion encounter
+#define FLAG_UNUSED_0x277  0x277 // Unused Flag - Terrakion encounter
+#define FLAG_UNUSED_0x278  0x278 // Unused Flag - Virizion encounter
+#define FLAG_UNUSED_0x279  0x279 // Unused Flag - Reshiram encounter
+#define FLAG_UNUSED_0x27A  0x27A // Unused Flag - Zekrom encounter
+#define FLAG_UNUSED_0x27B  0x27B // Unused Flag - Kyurem encounter
+#define FLAG_UNUSED_0x27C  0x27C // Unused Flag - Xerneas encounter
+#define FLAG_UNUSED_0x27D  0x27D // Unused Flag - Yveltal encounter
+#define FLAG_UNUSED_0x27E  0x27E // Unused Flag - Zygarde encounter
 #define FLAG_UNUSED_0x27F  0x27F // Unused Flag
 #define FLAG_UNUSED_0x280  0x280 // Unused Flag
 #define FLAG_UNUSED_0x281  0x281 // Unused Flag
@@ -1586,33 +1586,33 @@
 #define FLAG_UNUSED_0x933                           (DAILY_FLAGS_START + 0x13) // Unused Flag
 #define FLAG_DAILY_APPRENTICE_LEAVES                (DAILY_FLAGS_START + 0x14)
 
-#define FLAG_UNUSED_0x935                           (DAILY_FLAGS_START + 0x15) // Unused Flag
-#define FLAG_UNUSED_0x936                           (DAILY_FLAGS_START + 0x16) // Unused Flag
-#define FLAG_UNUSED_0x937                           (DAILY_FLAGS_START + 0x17) // Unused Flag
-#define FLAG_UNUSED_0x938                           (DAILY_FLAGS_START + 0x18) // Unused Flag
-#define FLAG_UNUSED_0x939                           (DAILY_FLAGS_START + 0x19) // Unused Flag
-#define FLAG_UNUSED_0x93A                           (DAILY_FLAGS_START + 0x1A) // Unused Flag
-#define FLAG_UNUSED_0x93B                           (DAILY_FLAGS_START + 0x1B) // Unused Flag
-#define FLAG_UNUSED_0x93C                           (DAILY_FLAGS_START + 0x1C) // Unused Flag
-#define FLAG_UNUSED_0x93D                           (DAILY_FLAGS_START + 0x1D) // Unused Flag
-#define FLAG_UNUSED_0x93E                           (DAILY_FLAGS_START + 0x1E) // Unused Flag
-#define FLAG_UNUSED_0x93F                           (DAILY_FLAGS_START + 0x1F) // Unused Flag
-#define FLAG_UNUSED_0x940                           (DAILY_FLAGS_START + 0x20) // Unused Flag
-#define FLAG_UNUSED_0x941                           (DAILY_FLAGS_START + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x942                           (DAILY_FLAGS_START + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x943                           (DAILY_FLAGS_START + 0x23) // Unused Flag
-#define FLAG_UNUSED_0x944                           (DAILY_FLAGS_START + 0x24) // Unused Flag
-#define FLAG_UNUSED_0x945                           (DAILY_FLAGS_START + 0x25) // Unused Flag
-#define FLAG_UNUSED_0x946                           (DAILY_FLAGS_START + 0x26) // Unused Flag
-#define FLAG_UNUSED_0x947                           (DAILY_FLAGS_START + 0x27) // Unused Flag
-#define FLAG_UNUSED_0x948                           (DAILY_FLAGS_START + 0x28) // Unused Flag
-#define FLAG_UNUSED_0x949                           (DAILY_FLAGS_START + 0x29) // Unused Flag
-#define FLAG_UNUSED_0x94A                           (DAILY_FLAGS_START + 0x2A) // Unused Flag
-#define FLAG_UNUSED_0x94B                           (DAILY_FLAGS_START + 0x2B) // Unused Flag
-#define FLAG_UNUSED_0x94C                           (DAILY_FLAGS_START + 0x2C) // Unused Flag
-#define FLAG_UNUSED_0x94D                           (DAILY_FLAGS_START + 0x2D) // Unused Flag
-#define FLAG_UNUSED_0x94E                           (DAILY_FLAGS_START + 0x2E) // Unused Flag
-#define FLAG_UNUSED_0x94F                           (DAILY_FLAGS_START + 0x2F) // Unused Flag
+#define FLAG_UNUSED_0x935                           (DAILY_FLAGS_START + 0x15) // Unused Flag - Mesprit respawn
+#define FLAG_UNUSED_0x936                           (DAILY_FLAGS_START + 0x16) // Unused Flag - Azelf respawn
+#define FLAG_UNUSED_0x937                           (DAILY_FLAGS_START + 0x17) // Unused Flag - Uxie respawn
+#define FLAG_UNUSED_0x938                           (DAILY_FLAGS_START + 0x18) // Unused Flag - Entei respawn
+#define FLAG_UNUSED_0x939                           (DAILY_FLAGS_START + 0x19) // Unused Flag - Raikou respawn
+#define FLAG_UNUSED_0x93A                           (DAILY_FLAGS_START + 0x1A) // Unused Flag - Suicune respawn
+#define FLAG_UNUSED_0x93B                           (DAILY_FLAGS_START + 0x1B) // Unused Flag - Palkia respawn
+#define FLAG_UNUSED_0x93C                           (DAILY_FLAGS_START + 0x1C) // Unused Flag - Dialga respawn
+#define FLAG_UNUSED_0x93D                           (DAILY_FLAGS_START + 0x1D) // Unused Flag - Giratina respawn
+#define FLAG_UNUSED_0x93E                           (DAILY_FLAGS_START + 0x1E) // Unused Flag - Thundurus respawn
+#define FLAG_UNUSED_0x93F                           (DAILY_FLAGS_START + 0x1F) // Unused Flag - Tornadus respawn
+#define FLAG_UNUSED_0x940                           (DAILY_FLAGS_START + 0x20) // Unused Flag - Landorus respawn
+#define FLAG_UNUSED_0x941                           (DAILY_FLAGS_START + 0x21) // Unused Flag - Zapdos respawn
+#define FLAG_UNUSED_0x942                           (DAILY_FLAGS_START + 0x22) // Unused Flag - Moltres respawn
+#define FLAG_UNUSED_0x943                           (DAILY_FLAGS_START + 0x23) // Unused Flag - Articuno respawn
+#define FLAG_UNUSED_0x944                           (DAILY_FLAGS_START + 0x24) // Unused Flag - Mewtwo respawn
+#define FLAG_UNUSED_0x945                           (DAILY_FLAGS_START + 0x25) // Unused Flag - Heatran respawn
+#define FLAG_UNUSED_0x946                           (DAILY_FLAGS_START + 0x26) // Unused Flag - Regigigas respawn
+#define FLAG_UNUSED_0x947                           (DAILY_FLAGS_START + 0x27) // Unused Flag - Cobalion respawn
+#define FLAG_UNUSED_0x948                           (DAILY_FLAGS_START + 0x28) // Unused Flag - Terrakion respawn
+#define FLAG_UNUSED_0x949                           (DAILY_FLAGS_START + 0x29) // Unused Flag - Virizion respawn
+#define FLAG_UNUSED_0x94A                           (DAILY_FLAGS_START + 0x2A) // Unused Flag - Reshiram respawn
+#define FLAG_UNUSED_0x94B                           (DAILY_FLAGS_START + 0x2B) // Unused Flag - Zekrom respawn
+#define FLAG_UNUSED_0x94C                           (DAILY_FLAGS_START + 0x2C) // Unused Flag - Kyurem respawn
+#define FLAG_UNUSED_0x94D                           (DAILY_FLAGS_START + 0x2D) // Unused Flag - Xerneas respawn
+#define FLAG_UNUSED_0x94E                           (DAILY_FLAGS_START + 0x2E) // Unused Flag - Yveltal respawn
+#define FLAG_UNUSED_0x94F                           (DAILY_FLAGS_START + 0x2F) // Unused Flag - Zygarde respawn
 #define FLAG_UNUSED_0x950                           (DAILY_FLAGS_START + 0x30) // Unused Flag
 #define FLAG_UNUSED_0x951                           (DAILY_FLAGS_START + 0x31) // Unused Flag
 #define FLAG_UNUSED_0x952                           (DAILY_FLAGS_START + 0x32) // Unused Flag

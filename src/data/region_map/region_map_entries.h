@@ -198,6 +198,11 @@ static const u8 sMapName_MarineCave[] = _("MARINE CAVE");
 static const u8 sMapName_TerraCave[] = _("TERRA CAVE");
 static const u8 sMapName_DesertUnderpass[] = _("DESERT UNDERPASS");
 static const u8 sMapName_TrainerHill[] = _("TRAINER HILL");
+static const u8 sMapName_PetalburgWoodsSE[] = _("PETALBURG WOODS");
+static const u8 sMapName_RustboroGrove[] = _("RUSTBORO GROVE");
+static const u8 sMapName_RabbitHole[] = _("RABBIT HOLE");
+static const u8 sMapName_VerdanturfPrairie[] = _("VERDANTURPRAIRIE");
+static const u8 sMapName_FortreeWilds[] = _("FORTREE WILDS");
 
 const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_LITTLEROOT_TOWN]            = { 4, 11, 1, 1, sMapName_LittlerootTown},
@@ -412,7 +417,12 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_DESERT_UNDERPASS]           = { 2,  0, 1, 1, sMapName_DesertUnderpass},
     [MAPSEC_ALTERING_CAVE]              = { 6,  8, 1, 1, sMapName_AlteringCave},
     [MAPSEC_NAVEL_ROCK]                 = { 0,  0, 1, 1, sMapName_NavelRock},
-    [MAPSEC_TRAINER_HILL]               = { 8,  4, 1, 1, sMapName_TrainerHill}
+    [MAPSEC_TRAINER_HILL]               = { 8,  4, 1, 1, sMapName_TrainerHill},
+    [MAPSEC_PETALBURG_WOODS_SE]         = { 0,  0, 1, 1, sMapName_PetalburgWoodsSE},
+    [MAPSEC_RUSTBORO_GROVE]             = { 0,  0, 1, 1, sMapName_RustboroGrove},
+    [MAPSEC_RABBIT_HOLE]                = { 0,  0, 1, 1, sMapName_RabbitHole},
+    [MAPSEC_VERDANTURF_PRAIRIE]         = { 0,  0, 1, 1, sMapName_VerdanturfPrairie},
+    [MAPSEC_FORTREE_WILDS]              = { 0,  0, 1, 1, sMapName_FortreeWilds}
 };
 
 #endif //GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H

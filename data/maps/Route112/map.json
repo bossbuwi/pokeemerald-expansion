@@ -255,9 +255,18 @@
       "elevation": 0,
       "dest_map": "MAP_FIERY_PATH",
       "dest_warp_id": 1
+    },
+    {
+      "x": 38,
+      "y": 42,
+      "elevation": 0,
+      "dest_map": "MAP_RABBIT_HOLE",
+      "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

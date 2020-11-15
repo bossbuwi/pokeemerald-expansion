@@ -22,6 +22,11 @@
       "direction": "right",
       "offset": 0,
       "map": "MAP_MAUVILLE_CITY"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_VERDANTURF_PRAIRIE_SOUTH"
     }
   ],
   "object_events": [
@@ -347,7 +352,9 @@
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

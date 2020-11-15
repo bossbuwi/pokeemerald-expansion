@@ -1060,3 +1060,39 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+
+	.include "data/maps/PetalburgWoodsSE/scripts.inc"
+
+	.include "data/maps/RustboroGrove/scripts.inc"
+
+	.include "data/maps/RabbitHole/scripts.inc"
+
+	.include "data/maps/RabbitHole_B1F_1R/scripts.inc"
+
+	.include "data/maps/RabbitHole_B1F_2R/scripts.inc"
+
+	.include "data/maps/RabbitHole_B1F_3R/scripts.inc"
+
+	.include "data/maps/ShoalCave_SecretRoom/scripts.inc"
+
+	.include "data/maps/VerdanturfPrairie_South/scripts.inc"
+
+	.include "data/maps/VerdanturfPrairie_Inner/scripts.inc"
+
+	.include "data/maps/VerdanturfPrairie_North/scripts.inc"
+
+	.include "data/maps/VerdanturfPrairie_West/scripts.inc"
+
+	.include "data/maps/VerdanturfPrairie_East/scripts.inc"
+
+	.include "data/maps/MauvilleCity_GameCorner_BR/scripts.inc"
+
+	.include "data/maps/NewMauville_Lobby/scripts.inc"
+
+	.include "data/maps/FortreeWilds_South/scripts.inc"
+
+	.include "data/maps/FortreeWilds_Center/scripts.inc"
+
+	.include "data/maps/FortreeWilds_West/scripts.inc"
+
+	.include "data/maps/FortreeWilds_East/scripts.inc"

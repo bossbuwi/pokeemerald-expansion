@@ -4410,6 +4410,186 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WOODS_SE",
+      "name": "PetalburgWoodsSE_Layout",
+      "width": 30,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgWoodsSE/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWoodsSE/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTBORO_GROVE",
+      "name": "RustboroGrove_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/RustboroGrove/border.bin",
+      "blockdata_filepath": "data/layouts/RustboroGrove/map.bin"
+    },
+    {
+      "id": "LAYOUT_RABBIT_HOLE",
+      "name": "RabbitHole_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RabbitHole/border.bin",
+      "blockdata_filepath": "data/layouts/RabbitHole/map.bin"
+    },
+    {
+      "id": "LAYOUT_RABBIT_HOLE_B1F_1R",
+      "name": "RabbitHole_B1F_1R_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RabbitHole_B1F_1R/border.bin",
+      "blockdata_filepath": "data/layouts/RabbitHole_B1F_1R/map.bin"
+    },
+    {
+      "id": "LAYOUT_RABBIT_HOLE_B1F_2R",
+      "name": "RabbitHole_B1F_2R_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RabbitHole_B1F_2R/border.bin",
+      "blockdata_filepath": "data/layouts/RabbitHole_B1F_2R/map.bin"
+    },
+    {
+      "id": "LAYOUT_RABBIT_HOLE_B1F_3R",
+      "name": "RabbitHole_B1F_3R_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/RabbitHole_B1F_3R/border.bin",
+      "blockdata_filepath": "data/layouts/RabbitHole_B1F_3R/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHOAL_CAVE_SECRET_ROOM",
+      "name": "ShoalCave_SecretRoom_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/ShoalCave_SecretRoom/border.bin",
+      "blockdata_filepath": "data/layouts/ShoalCave_SecretRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_PRAIRIE_SOUTH",
+      "name": "VerdanturfPrairie_South_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/VerdanturfPrairie_South/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfPrairie_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_PRAIRIE_INNER",
+      "name": "VerdanturfPrairie_Inner_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/VerdanturfPrairie_Inner/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfPrairie_Inner/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_PRAIRIE_NORTH",
+      "name": "VerdanturfPrairie_North_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/VerdanturfPrairie_North/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfPrairie_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_PRAIRIE_WEST",
+      "name": "VerdanturfPrairie_West_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/VerdanturfPrairie_West/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfPrairie_West/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_PRAIRIE_EAST",
+      "name": "VerdanturfPrairie_East_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/VerdanturfPrairie_East/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfPrairie_East/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAUVILLE_CITY_GAME_CORNER_BR",
+      "name": "MauvilleCity_GameCorner_BR_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/MauvilleCity_GameCorner_BR/border.bin",
+      "blockdata_filepath": "data/layouts/MauvilleCity_GameCorner_BR/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAUVILLE_LOBBY",
+      "name": "NewMauville_Lobby_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/NewMauville_Lobby/border.bin",
+      "blockdata_filepath": "data/layouts/NewMauville_Lobby/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_WILDS_SOUTH",
+      "name": "FortreeWilds_South_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/FortreeWilds_South/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeWilds_South/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_WILDS_CENTER",
+      "name": "FortreeWilds_Center_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/FortreeWilds_Center/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeWilds_Center/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_WILDS_WEST",
+      "name": "FortreeWilds_West_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/FortreeWilds_West/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeWilds_West/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_WILDS_EAST",
+      "name": "FortreeWilds_East_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/FortreeWilds_East/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeWilds_East/map.bin"
     }
   ]
 }
