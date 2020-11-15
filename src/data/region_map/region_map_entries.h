@@ -201,8 +201,9 @@ static const u8 sMapName_TrainerHill[] = _("TRAINER HILL");
 static const u8 sMapName_PetalburgWoodsSE[] = _("PETALBURG WOODS");
 static const u8 sMapName_RustboroGrove[] = _("RUSTBORO GROVE");
 static const u8 sMapName_RabbitHole[] = _("RABBIT HOLE");
-static const u8 sMapName_VerdanturfPrairie[] = _("VERDANTURPRAIRIE");
+static const u8 sMapName_VerdanturfPrairie[] = _("VERDANT PRAIRIE");
 static const u8 sMapName_FortreeWilds[] = _("FORTREE WILDS");
+static const u8 sMapName_ShoalCaveSecretRoom[] = _("SHOAL CAVE");
 
 const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_LITTLEROOT_TOWN]            = { 4, 11, 1, 1, sMapName_LittlerootTown},
@@ -422,7 +423,8 @@ const struct RegionMapLocation gRegionMapEntries[] = {
     [MAPSEC_RUSTBORO_GROVE]             = { 0,  0, 1, 1, sMapName_RustboroGrove},
     [MAPSEC_RABBIT_HOLE]                = { 0,  0, 1, 1, sMapName_RabbitHole},
     [MAPSEC_VERDANTURF_PRAIRIE]         = { 0,  0, 1, 1, sMapName_VerdanturfPrairie},
-    [MAPSEC_FORTREE_WILDS]              = { 0,  0, 1, 1, sMapName_FortreeWilds}
+    [MAPSEC_FORTREE_WILDS]              = { 0,  0, 1, 1, sMapName_FortreeWilds},
+    [MAPSEC_SHOAL_CAVE_SECRET_ROOM]     = { 0,  0, 1, 1, sMapName_ShoalCaveSecretRoom}
 };
 
 #endif //GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
