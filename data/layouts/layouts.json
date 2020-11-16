@@ -4555,7 +4555,7 @@
       "id": "LAYOUT_FORTREE_WILDS_SOUTH",
       "name": "FortreeWilds_South_Layout",
       "width": 20,
-      "height": 20,
+      "height": 25,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FortreeWilds_South/border.bin",
