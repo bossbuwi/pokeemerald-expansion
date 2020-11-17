@@ -31,7 +31,7 @@ PetalburgWoodsSE_Text_Sign1: @ SignOnEntrance
 PetalburgWoodsSE_EventScript_PondRock:: @ PondRock
 	msgbox PetalburgWoodsSE_Text_PondRock, MSGBOX_SIGN
 	goto_if_set FLAG_UNUSED_0x264, PetalburgWoodsSE_EventScript_MespritAlreadyCaught
-	goto_if_set FLAG_UNUSED_0x935, PetalburgWoodsSE_EventScript_MespritAlreadyCaught
+	goto_if_set FLAG_UNUSED_0x935, PetalburgWoodsSE_EventScript_MespritAlreadyInteracted
 	goto PetalburgWoodsSE_EventScript_Mesprit
 	end
 
@@ -44,7 +44,7 @@ PetalburgWoodsSE_EventScript_Mesprit:: @ PondRock
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
 	goto_if_eq PetalburgWoodsSE_EventScript_MespritCaught
-	setflag FLAG_TEMP_1
+	setflag FLAG_UNUSED_0x935
 	end
 
 PetalburgWoodsSE_EventScript_MespritCaught:: @ PondRock
@@ -52,6 +52,10 @@ PetalburgWoodsSE_EventScript_MespritCaught:: @ PondRock
 	end
 
 PetalburgWoodsSE_EventScript_MespritAlreadyCaught:: @ PondRock
+	msgbox PetalburgWoodsSE_Text_MespritAlreadyCaught, MSGBOX_SIGN
+	end
+
+PetalburgWoodsSE_EventScript_MespritAlreadyInteracted:: @ PondRock
 	msgbox PetalburgWoodsSE_Text_MespritAlreadyCaught, MSGBOX_SIGN
 	end
 
