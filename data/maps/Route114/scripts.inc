@@ -209,3 +209,44 @@ Route114_Text_FossilManiacsHouseSign: @ 81F28DB
 Route114_Text_LanettesHouse: @ 81F2910
 	.string "LANETTE'S HOUSE$"
 
+Route114_EventScript_LakeRock:: @ Lake Rock
+	msgbox Route114_Text_LakeRock, MSGBOX_SIGN
+	goto_if_set FLAG_UNUSED_0x266, Route114_EventScript_UxieAlreadyCaught
+	goto_if_set FLAG_UNUSED_0x937, Route114_EventScript_UxieAlreadyInteracted
+	goto Route114_EventScript_Uxie
+	end
+
+Route114_EventScript_UxieAlreadyCaught:: @ Lake Rock
+	msgbox Route114_Text_UxieAlreadyCaught, MSGBOX_SIGN
+	end
+
+Route114_EventScript_UxieAlreadyInteracted:: @ Lake Rock
+	msgbox Route114_Text_UxieAlreadyCaught, MSGBOX_SIGN
+	end
+
+Route114_EventScript_UxieCaught:: @ Lake Rock
+	setflag FLAG_UNUSED_0x266
+	end
+
+Route114_EventScript_Uxie:: @ Lake Rock
+	msgbox Route114_Text_Uxie, MSGBOX_SIGN
+	setwildbattle SPECIES_UXIE, 10, ITEM_NONE
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq Route114_EventScript_UxieCaught
+	setflag FLAG_UNUSED_0x937
+	end
+
+Route114_Text_LakeRock: @ Lake Rock
+	.string "An ordinary rock that exudes\n"
+	.string "a supernatural aura.$"
+
+Route114_Text_Uxie: @ Lake Rock
+	.string "The supernatural aura is resonating!\p"
+	.string "Knowledge is overflowing!$"
+
+Route114_Text_UxieAlreadyCaught: @ Lake Rock
+	.string "Knowledge seems to linger on it.$"

@@ -513,7 +513,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route114_EventScript_LakeRock"
     },
     {
       "type": "sign",
@@ -521,7 +521,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route114_EventScript_LakeRock"
     },
     {
       "type": "sign",
@@ -529,7 +529,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route114_EventScript_LakeRock"
     },
     {
       "type": "sign",
@@ -537,7 +537,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route114_EventScript_LakeRock"
     }
   ]
 }

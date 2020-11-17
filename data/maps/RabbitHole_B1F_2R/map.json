@@ -35,7 +35,7 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RabbitHole_B1F_2R_EventScript_EdgeRock"
     }
   ]
 }
