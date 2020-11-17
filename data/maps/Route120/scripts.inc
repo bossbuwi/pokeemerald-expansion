@@ -455,3 +455,45 @@ Route120_Text_RouteSignFortree: @ 81F5DCB
 Route120_Text_RouteSign121: @ 81F5DE4
 	.string "{RIGHT_ARROW} ROUTE 121\n"
 	.string "{LEFT_ARROW} ROUTE 120$"
+
+Route120_EventScript_LakeRock:: @ Lake Rock
+	msgbox Route120_Text_LakeRock, MSGBOX_SIGN
+	goto_if_set FLAG_UNUSED_0x265, Route120_EventScript_AzelfAlreadyCaught
+	goto_if_set FLAG_UNUSED_0x936, Route120_EventScript_AzelfAlreadyInteracted
+	goto Route120_EventScript_Azelf
+	end
+
+Route120_EventScript_AzelfAlreadyCaught:: @ Lake Rock
+	msgbox Route120_Text_AzelfAlreadyCaught, MSGBOX_SIGN
+	end
+
+Route120_EventScript_AzelfAlreadyInteracted:: @ Lake Rock
+	msgbox Route120_Text_AzelfAlreadyCaught, MSGBOX_SIGN
+	end
+
+Route120_EventScript_AzelfCaught:: @ Lake Rock
+	setflag FLAG_UNUSED_0x265
+	end
+
+Route120_EventScript_Azelf:: @ Lake Rock
+	msgbox Route120_Text_Azelf, MSGBOX_SIGN
+	setwildbattle SPECIES_AZELF, 10, ITEM_NONE
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	dowildbattle
+	clearflag FLAG_SYS_CTRL_OBJ_DELETE
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq Route120_EventScript_AzelfCaught
+	setflag FLAG_UNUSED_0x936
+	end
+
+Route120_Text_LakeRock: @ Lake Rock
+	.string "An ordinary rock that exudes\n"
+	.string "a supernatural aura.$"
+
+Route120_Text_Azelf: @ Lake Rock
+	.string "The supernatural aura is resonating!\p"
+	.string "Willpower is in abundance!$"
+
+Route120_Text_AzelfAlreadyCaught: @ Lake Rock
+	.string "Willpower seems to linger on it.$"

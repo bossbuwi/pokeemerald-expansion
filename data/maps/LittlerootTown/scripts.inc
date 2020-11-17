@@ -259,11 +259,11 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale:: @ 81E8013
 	end
 
 LittlerootTown_EventScript_FatMan:: @ 81E8022
-	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
+	msgbox LittlerootTown_Text_PetalburgCityGrass, MSGBOX_NPC
 	end
 
 LittlerootTown_EventScript_Boy:: @ 81E802B
-	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+	msgbox LittlerootTown_Text_Incident, MSGBOX_NPC
 	end
 
 LittlerootTown_EventScript_Twin:: @ 81E8034
@@ -1070,3 +1070,19 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab: @ 81E8DA2
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+LittlerootTown_Text_Incident:
+	.string "There was an incident here in Hoenn\n"
+	.string "almost a year ago.\p"
+	.string "A rift opened in Sootopolis City and a\n"
+	.string "blinding light enveloped the region.\p"
+	.string "I did not remember anything after that\n"
+	.string "but I woke up after a couple of days\l"
+	.string "and Hoenn had changed.$"
+
+LittlerootTown_Text_PetalburgCityGrass:
+	.string "I went to Petalburg City the other day\n"
+	.string "and a bunch of psychic POKéMON came\l"
+	.string " at me!\p"
+	.string "Now that I think of it, I do not remember\n"
+	.string "seeing any patch of grass on Petalburg\l"
+	.string "City before the mysterious event.$"
