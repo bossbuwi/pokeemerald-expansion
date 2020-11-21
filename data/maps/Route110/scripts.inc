@@ -1021,45 +1021,45 @@ Route110_Text_KeepAnEyeOutForRival: @ 81F0C33
 	.string "Well, I had better get going.\n"
 	.string "See you again, {PLAYER}{KUN}!$"
 
-Route110_EventScript_Statue:: @ Suicune Statue
+Route110_EventScript_Statue:: @ Thundurus Statue
 	msgbox Route110_Text_Statue, MSGBOX_SIGN
-	goto_if_set FLAG_UNUSED_0x269, Route110_EventScript_SuicuneAlreadyCaught
-	goto_if_set FLAG_UNUSED_0x93A, Route110_EventScript_SuicuneAlreadyInteracted
-	goto Route110_EventScript_Suicune
+	goto_if_set FLAG_UNUSED_0x269, Route110_EventScript_ThundurusAlreadyCaught
+	goto_if_set FLAG_UNUSED_0x93A, Route110_EventScript_ThundurusAlreadyInteracted
+	goto Route110_EventScript_Thundurus
 	end
 
-Route110_EventScript_SuicuneAlreadyCaught:: @ Suicune Statue
-	msgbox Route110_Text_SuicuneAlreadyCaught, MSGBOX_SIGN
+Route110_EventScript_ThundurusAlreadyCaught:: @ Thundurus Statue
+	msgbox Route110_Text_ThundurusAlreadyCaught, MSGBOX_SIGN
 	end
 
-Route110_EventScript_SuicuneAlreadyInteracted:: @ Suicune Statue
-	msgbox Route110_Text_SuicuneAlreadyCaught, MSGBOX_SIGN
+Route110_EventScript_ThundurusAlreadyInteracted:: @ Thundurus Statue
+	msgbox Route110_Text_ThundurusAlreadyCaught, MSGBOX_SIGN
 	end
 
-Route110_EventScript_SuicuneCaught:: @ Suicune Statue
+Route110_EventScript_ThundurusCaught:: @ Thundurus Statue
 	setflag FLAG_UNUSED_0x269
 	end
 
-Route110_EventScript_Suicune:: @ Suicune Statue
-	msgbox Route110_Text_Suicune, MSGBOX_SIGN
-	setwildbattle SPECIES_SUICUNE, 10, ITEM_NONE
+Route110_EventScript_Thundurus:: @ Thundurus Statue
+	msgbox Route110_Text_Thundurus, MSGBOX_SIGN
+	setwildbattle SPECIES_THUNDURUS, 10, ITEM_NONE
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq Route110_EventScript_SuicuneCaught
+	goto_if_eq Route110_EventScript_ThundurusCaught
 	setflag FLAG_UNUSED_0x93A
 	end
 
-Route110_Text_Statue: @ Suicune Statue
+Route110_Text_Statue: @ Thundurus Statue
 	.string "A peculiar statue in the middle\n"
 	.string "of nowhere.\p"
 	.string "A trickle of crystal clear water\n"
 	.string "could be seen on it.$"
 
-Route110_Text_Suicune: @ Suicune Statue
+Route110_Text_Thundurus: @ Thundurus Statue
 	.string "Something's coming!$"
 
-Route110_Text_SuicuneAlreadyCaught: @ Suicune Statue
+Route110_Text_ThundurusAlreadyCaught: @ Thundurus Statue
 	.string "It has a mystical feel to it.$"
